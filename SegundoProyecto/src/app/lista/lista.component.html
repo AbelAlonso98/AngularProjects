@@ -1,0 +1,11 @@
+<button mat-raised-button color="primary">Primary</button>
+<div class="contenedor" *ngFor="let personaje of listaDePersonajes">
+    <img class="foto" [src]=personaje.imagen />
+    <div class="datos">
+        <div class="top">
+            <p class="nombre">{{personaje.nombre}}</p>
+            <p class="edad">{{personaje.edad}}</p>
+        </div>
+        <p class="descripcion">{{personaje.descripcion}}</p>
+    </div>
+</div>

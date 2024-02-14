@@ -1,0 +1,8 @@
+<div class="contenedor-componente">
+    <app-tarjeta *ngFor="let personaje of listaDePersonajes" 
+    [nombre]="personaje.nombre" 
+    [edad]="personaje.edad" 
+    [descripcion]="personaje.descripcion" 
+    [imagen]="personaje.imagen">
+</app-tarjeta>
+</div>

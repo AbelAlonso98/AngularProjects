@@ -1,0 +1,12 @@
+<section class="semaforo">
+    <div *ngIf="valor==0;else vacio" class="redCircle"></div>
+    <div *ngIf="valor==1;else vacio"class="yellowCircle"></div>
+    <div *ngIf="valor==2;else vacio" class="greenCircle"></div>
+    <span class="cuentaAtras">{{valor}}</span>
+    <button (click)="start()">Start</button>
+    <button (click)="stop()">Stop</button>
+</section>
+
+<ng-template #vacio>
+    <div class="emptyCircle"></div>
+</ng-template>

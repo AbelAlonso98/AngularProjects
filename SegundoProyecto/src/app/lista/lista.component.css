@@ -1,0 +1,32 @@
+.contenedor{
+    display: flex;
+    padding: 12px;
+    border-radius: 16px;
+    margin-bottom: 12px;
+    background-color: bisque;
+    box-shadow: 10px 2px 5px black;
+    border: 2px solid black;
+    font-family: Papyrus;
+    font-size: 20px;
+    font-weight: 700;
+}
+.contenedor:hover{
+    background-color: chocolate;
+}
+.datos{
+    width: 80%;
+    height: auto;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.foto{
+    width: 200px;
+    height: max-content;
+    border-radius: 8px;
+    margin-right: 50px;
+}

@@ -1,0 +1,36 @@
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.mainContainer {
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.btnMenu {
+    width: 55%;
+    height: 10%;
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.btnMenu:hover {
+    border: 3px solid black;
+    width: 57%;
+    box-shadow: 10px 5px 5px black;
+    font-size: 100%;
+}
+
+ @media only screen and (max-with=500px){
+    
+    
+ }
